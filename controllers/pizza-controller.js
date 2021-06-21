@@ -17,7 +17,6 @@ const pizzaController = {
       });
   },
 
-  // get one pizza by id
 // get one pizza by id
   getPizzaById({ params }, res) {
     Pizza.findOne({ _id: params.id })
